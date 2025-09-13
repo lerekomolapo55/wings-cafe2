@@ -1,0 +1,250 @@
+{
+  "products": [
+    {
+      "id": "1757589521043",
+      "name": "cappuccino",
+      "description": "type of coffee",
+      "category": "Beverages",
+      "subCategory": "Hot Drinks",
+      "price": 40,
+      "quantity": 7,
+      "imageUrl": "cappuccino.jpg",
+      "createdAt": "2025-09-11T11:18:41.043Z"
+    },
+    {
+      "id": "1757590614947",
+      "name": "water",
+      "description": "1L",
+      "category": "Beverages",
+      "subCategory": "Cold Drinks",
+      "price": 15,
+      "quantity": 8,
+      "imageUrl": "water.png",
+      "createdAt": "2025-09-11T11:36:54.947Z"
+    },
+    {
+      "id": "1757590789956",
+      "name": "coke",
+      "description": "1.5L",
+      "category": "Beverages",
+      "subCategory": "Cold Drinks",
+      "price": 20,
+      "quantity": 8,
+      "imageUrl": "coke.jpg",
+      "createdAt": "2025-09-11T11:39:49.956Z"
+    },
+    {
+      "id": "1757590893253",
+      "name": "coffee",
+      "description": "2 cups",
+      "category": "Beverages",
+      "subCategory": "Hot Drinks",
+      "price": 35,
+      "quantity": 4,
+      "imageUrl": "dark-coffee.jpeg",
+      "createdAt": "2025-09-11T11:41:33.253Z"
+    },
+    {
+      "id": "1757590997356",
+      "name": "PLATE",
+      "description": "pap and wors",
+      "category": "Food",
+      "subCategory": "Meals",
+      "price": 35,
+      "quantity": 5,
+      "imageUrl": "wors.jpg",
+      "createdAt": "2025-09-11T11:43:17.356Z"
+    },
+    {
+      "id": "1757591064313",
+      "name": "donut",
+      "description": "medium box",
+      "category": "Food",
+      "subCategory": "Bakery Items",
+      "price": 27,
+      "quantity": 2,
+      "imageUrl": "donut.jpg",
+      "createdAt": "2025-09-11T11:44:24.313Z"
+    },
+    {
+      "id": "1757591124789",
+      "name": "sandwich",
+      "description": "quick meal",
+      "category": "Food",
+      "subCategory": "Grab-and-Go",
+      "price": 40,
+      "quantity": 2,
+      "imageUrl": "sandwich.jpeg",
+      "createdAt": "2025-09-11T11:45:24.789Z"
+    },
+    {
+      "id": "1757604336874",
+      "name": "apples",
+      "description": "green and red",
+      "category": "Snacks",
+      "subCategory": "Fruits",
+      "price": 2.96,
+      "quantity": 16,
+      "imageUrl": "apples.2.jpg",
+      "createdAt": "2025-09-11T15:25:36.875Z"
+    },
+    {
+      "id": "1757604572099",
+      "name": "peanuts",
+      "description": "20g",
+      "category": "Snacks",
+      "subCategory": "Takeaway Snacks",
+      "price": 5,
+      "quantity": 25,
+      "imageUrl": "peanuts.jpg",
+      "createdAt": "2025-09-11T15:29:32.099Z"
+    },
+    {
+      "id": "1757604633896",
+      "name": "loly-pop",
+      "description": "sweet",
+      "category": "Snacks",
+      "subCategory": "Light Snacks",
+      "price": 2,
+      "quantity": 14,
+      "imageUrl": "loly pop.jpg",
+      "createdAt": "2025-09-11T15:30:33.896Z"
+    },
+    {
+      "id": "1757604907046",
+      "name": "power cable",
+      "description": "1 meter",
+      "category": "Study-Friendly Offerings",
+      "subCategory": "Cables",
+      "price": 55,
+      "quantity": 31,
+      "imageUrl": "power-cable.jpg",
+      "createdAt": "2025-09-11T15:35:07.046Z"
+    },
+    {
+      "id": "1757604984626",
+      "name": "Note book",
+      "description": "144 pages",
+      "category": "Study-Friendly Offerings",
+      "subCategory": "Stationary",
+      "price": 18,
+      "quantity": 12,
+      "imageUrl": "notebook.jpg",
+      "createdAt": "2025-09-11T15:36:24.626Z"
+    },
+    {
+      "id": "1757605090817",
+      "name": "bread",
+      "description": "loaf",
+      "category": "Food",
+      "subCategory": "Bakery Items",
+      "price": 17,
+      "quantity": 46,
+      "imageUrl": "bread.jpg",
+      "createdAt": "2025-09-11T15:38:10.817Z"
+    },
+    {
+      "id": "1757605161751",
+      "name": "Burger",
+      "description": "medium",
+      "category": "Food",
+      "subCategory": "Grab-and-Go",
+      "price": 20,
+      "quantity": 19,
+      "imageUrl": "burger.jpg",
+      "createdAt": "2025-09-11T15:39:21.751Z"
+    },
+    {
+      "id": "1757605241878",
+      "name": "PLATE",
+      "description": "rice and vegs",
+      "category": "Food",
+      "subCategory": "Meals",
+      "price": 40,
+      "quantity": 30,
+      "imageUrl": "One-Pot-Vegetable-Rice.jpg",
+      "createdAt": "2025-09-11T15:40:41.878Z"
+    },
+    {
+      "id": "1757605453801",
+      "name": "Bananas",
+      "description": "fresh",
+      "category": "Snacks",
+      "subCategory": "Fruits",
+      "price": 3,
+      "quantity": 12,
+      "imageUrl": "bananas.jpg",
+      "createdAt": "2025-09-11T15:44:13.801Z"
+    },
+    {
+      "id": "1757605736442",
+      "name": "Marrie",
+      "description": "biscuits",
+      "category": "Snacks",
+      "subCategory": "Takeaway Snacks",
+      "price": 10,
+      "quantity": 11,
+      "imageUrl": "biscuit.jpeg",
+      "createdAt": "2025-09-11T15:48:56.442Z"
+    },
+    {
+      "id": "1757605836632",
+      "name": "Kit Kat",
+      "description": "12g",
+      "category": "Snacks",
+      "subCategory": "Light Snacks",
+      "price": 16,
+      "quantity": 12,
+      "imageUrl": "kit kat.jpeg",
+      "createdAt": "2025-09-11T15:50:36.632Z"
+    },
+    {
+      "id": "1757625569682",
+      "name": "Ball pen",
+      "description": "BIC",
+      "category": "Study-Friendly Offerings",
+      "subCategory": "Stationary",
+      "price": 6,
+      "quantity": 11,
+      "imageUrl": "ball-pen.jpeg",
+      "createdAt": "2025-09-11T21:19:29.683Z"
+    }
+  ],
+  "sales": [
+    {
+      "id": "1757608941097",
+      "productId": "1757589521043",
+      "quantity": 5,
+      "total": 200,
+      "date": "2025-09-11"
+    },
+    {
+      "id": "1757609158755",
+      "productId": "1757591064313",
+      "quantity": 3,
+      "total": 81,
+      "date": "2025-09-11"
+    },
+    {
+      "id": "1757609161852",
+      "productId": "1757604336874",
+      "quantity": 4,
+      "total": 11.84,
+      "date": "2025-09-11"
+    },
+    {
+      "id": "1757609400643",
+      "productId": "1757604633896",
+      "quantity": 6,
+      "total": 12,
+      "date": "2025-09-11"
+    },
+    {
+      "id": "1757623568239",
+      "productId": "1757605836632",
+      "quantity": 1,
+      "total": 16,
+      "date": "2025-09-11"
+    }
+  ]
+}
