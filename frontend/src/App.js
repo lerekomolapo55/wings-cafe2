@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Dashboard from './components/Dashboard';
 import ProductManagement from './components/ProductManagement';
@@ -21,6 +21,7 @@ const Footer = () => {
 
 function App() {
   return (
+    <Router basename="/wings-cafe2">
       <div className="App">
         <Navbar />
         <div className="main-content">
@@ -35,6 +36,7 @@ function App() {
         </div>
         <Footer />
       </div>
+    </Router>
   );
 }
 
