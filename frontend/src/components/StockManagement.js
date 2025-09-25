@@ -12,7 +12,7 @@ const StockManagement = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/products');
+      const response = await fetch('http://localhost:5001/api/products');
       if (response.ok) {
         const data = await response.json();
         setProducts(data);
@@ -31,7 +31,7 @@ const StockManagement = () => {
     }
     
     try {
-      const response = await fetch('http://localhost:5000/api/stock/adjust', {
+      const response = await fetch('http://localhost:5001/api/stock/adjust', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

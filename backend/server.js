@@ -5,14 +5,13 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = 5000;
+const PORT = 5001;
 const DATA_FILE = path.join(__dirname, 'data', 'database.json');
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
+app.use(cors({ origin: ['http://localhost:3001', 'https://lerekomolapo55.github.io'], credentials: true }));
 app.use(bodyParser.json({ limit: '10mb' }));
 app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Helper: read data
 const readData = () => {
@@ -283,7 +282,7 @@ app.post('/api/stock/adjust', (req, res) => {
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'OK', message: 'Server is running on port 5000' });
+  res.json({ status: 'OK', message: 'Server is running on port 5001' });
 });
 
 // Error handling middleware

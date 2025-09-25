@@ -14,11 +14,11 @@ const Dashboard = () => {
   const fetchData = async () => {
     try {
       // Fetch products
-      const productsResponse = await fetch('http://localhost:5000/api/products');
+      const productsResponse = await fetch('http://localhost:5001/api/products');
       const productsData = await productsResponse.json();
       
       // Fetch sales
-      const salesResponse = await fetch('http://localhost:5000/api/sales');
+      const salesResponse = await fetch('http://localhost:5001/api/sales');
       const salesData = await salesResponse.json();
       
       setProducts(productsData);

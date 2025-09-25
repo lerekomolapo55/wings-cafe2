@@ -15,13 +15,13 @@ const Sales = () => {
       setLoading(true);
 
       // Fetch products
-      const productsResponse = await fetch('http://localhost:5000/api/products');
+      const productsResponse = await fetch('http://localhost:5001/api/products');
       if (!productsResponse.ok) throw new Error('Failed to fetch products');
       const productsData = await productsResponse.json();
       setProducts(productsData);
 
       // Fetch sales (though we don't use the sales data in this component)
-      const salesResponse = await fetch('http://localhost:5000/api/sales');
+      const salesResponse = await fetch('http://localhost:5001/api/sales');
       if (!salesResponse.ok) throw new Error('Failed to fetch sales');
       
     } catch (err) {
@@ -71,7 +71,7 @@ const Sales = () => {
       for (const { product, quantity } of productsToSell) {
         const total = product.price * quantity;
 
-        const response = await fetch('http://localhost:5000/api/sales', {
+        const response = await fetch('http://localhost:5001/api/sales', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

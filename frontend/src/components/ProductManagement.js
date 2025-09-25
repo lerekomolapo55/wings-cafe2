@@ -92,7 +92,7 @@ const ProductManagement = () => {
   const fetchProducts = async () => {
     try {
       setLoading(true);
-      const response = await fetch('http://localhost:5000/api/products');
+      const response = await fetch('http://localhost:5001/api/products');
       if (response.ok) {
         const data = await response.json();
         setProducts(data);
@@ -101,7 +101,7 @@ const ProductManagement = () => {
       }
     } catch (error) {
       console.error('Error fetching products:', error);
-      setError('Network error. Please make sure the backend server is running on port 5000.');
+      setError('Network error. Please make sure the backend server is running on port 5001.');
     } finally {
       setLoading(false);
     }
@@ -136,8 +136,8 @@ const ProductManagement = () => {
       };
       
       const url = editingProductId 
-        ? `http://localhost:5000/api/products/${editingProductId}`
-        : 'http://localhost:5000/api/products';
+        ? `http://localhost:5001/api/products/${editingProductId}`
+        : 'http://localhost:5001/api/products';
       
       const method = editingProductId ? 'PUT' : 'POST';
       
@@ -173,7 +173,7 @@ const ProductManagement = () => {
       }
     } catch (error) {
       console.error('Error saving product:', error);
-      setError('Network error. Please make sure the backend server is running on port 5000.');
+      setError('Network error. Please make sure the backend server is running on port 5001.');
     }
   };
 
@@ -192,7 +192,7 @@ const ProductManagement = () => {
   const handleDeleteProduct = async (id) => {
     if (window.confirm('Are you sure you want to delete this product?')) {
       try {
-        const response = await fetch(`http://localhost:5000/api/products/${id}`, {
+        const response = await fetch(`http://localhost:5001/api/products/${id}`, {
           method: 'DELETE',
         });
         
@@ -205,7 +205,7 @@ const ProductManagement = () => {
         }
       } catch (error) {
         console.error('Error deleting product:', error);
-        alert('Network error. Please make sure the backend server is running on port 5000.');
+        alert('Network error. Please make sure the backend server is running on port 5001.');
       }
     }
   };
