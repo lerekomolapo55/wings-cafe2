@@ -1,16 +1,11 @@
 {
-  "homepage": "https://lerekomolapo55.github.io/wings-cafe2",
-  "name": "wings-cafe1",
-  "version": "0.1.0",
-  "private": true,
+  "name": "wings-cafe2-backend",
+  "version": "1.0.0",
+  "description": "Backend for Wings Cafe 2 management system",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
